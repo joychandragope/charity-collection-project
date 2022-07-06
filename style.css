@@ -177,12 +177,11 @@ body {
   padding-right: 80px;
   padding-left: 60px;
   text-align: justify;
+  background-color: rgb(243, 227, 227);
+  border-radius: 20px;
 }
 .right-content {
   margin-right: 100px;
-  border-radius: 5px;
-  width: 600px;
-  height: 200px;
 }
 .form-input {
   margin-left: 520px;
@@ -224,4 +223,8 @@ body {
   color: palevioletred;
   font-family: Georgia;
   font-style: italic;
+  margin-bottom: 30px;
+}
+.footer p {
+  font-family: sans-serif;
 }
