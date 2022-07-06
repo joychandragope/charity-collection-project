@@ -10,7 +10,7 @@ body {
   width: 100vw;
   height: 100vh;
   position: relative;
-  background-image: url(images/donation5.jpg);
+  background-image: url(images/donation6.jpg);
   background-size: cover;
 }
 
@@ -26,7 +26,7 @@ body {
   background-color: rgba(0, 0, 0, 0.68);
 }
 .banner-heading {
-  font-size: 75px;
+  font-size: 66px;
   text-align: center;
   margin-right: 300px;
   margin-left: 300px;
@@ -143,13 +143,16 @@ body {
   margin-top: 45px;
   margin-bottom: 45px;
   width: 350px;
-  height: 250px;
+  height: 350px;
   border: 1px solid gray;
   text-align: center;
   padding: 20px;
   border-radius: 10px;
   margin-right: 20px;
   box-shadow: 3px 3px 16px gray;
+}
+#medicine {
+  height: 55px;
 }
 .cards {
   display: flex;
@@ -164,6 +167,7 @@ body {
   padding-right: 40px;
   margin-top: 35px;
   margin-bottom: 80px;
+  width: 100%;
 }
 .left-content h1 {
   font-size: 58px;
@@ -171,8 +175,14 @@ body {
 }
 .left-content {
   padding-right: 80px;
-  padding-left: 80px;
+  padding-left: 60px;
   text-align: justify;
+}
+.right-content {
+  margin-right: 100px;
+  border-radius: 5px;
+  width: 600px;
+  height: 200px;
 }
 .form-input {
   margin-left: 520px;
